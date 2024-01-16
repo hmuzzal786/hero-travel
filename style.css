@@ -211,11 +211,52 @@ header{
     margin: 24px auto;
     padding: 30px;
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
+    border: 1px solid rgba(233, 68, 68, 0.20);
 
 background: rgba(233, 68, 68, 0.05);
 }
 /*choose section end*/
+
+
+/*newsletter section start*/
+
+.newletter-section{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    gap: 30px;
+}
+.newsletter-content{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 15px;
+}
+.newsletter-form input{
+    display: inline-block;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    
+}
+#btn-submit{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 800;
+    width: 100%;
+}
+.newsletter-img{
+    width: 60%;
+}
+.newsletter-img img{
+    width: 100%;
+}
+/*newsletter section end*/
+
 
 
 /*responsive for smaal device*/
