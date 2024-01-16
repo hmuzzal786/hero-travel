@@ -124,7 +124,7 @@ header{
    
    
 }
-.banner-input input{
+.banner-input input ,.select,.find-btn{
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
     font-weight: 400;
@@ -137,6 +137,12 @@ header{
 
 
 }
+.find-btn{
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+
 
 /*header section end*/
 
@@ -442,6 +448,57 @@ background: rgba(233, 68, 68, 0.05);
     .hambagur-icon{
         display: block;
     }
-
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    .banner-input{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .banner-input input ,.select,.find-btn{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .tours-section,.cards-container .cards-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-content{
+        width: 100%;
+        padding: 0;
+    }
+    .img-container,.row{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-section-content{
+        width: 100%;
+        padding: 0; 
+    }
+    .cards-bottom .cards-one{
+        width: 95%;
+    }
+    .about-agency {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .perfect-section {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .newletter-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter-img{
+        width: 95%;
+    
+    }
+   
 }
 
