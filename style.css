@@ -1,0 +1,231 @@
+/*fonts family*/
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,800;1,700&display=swap');
+
+/*shared related style*/
+*{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+.section-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.text-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    padding: 10px 30px;
+}
+
+/*header section start*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-brand{
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+    align-items: center;
+}
+.nav-brand img{
+    height: 50px;
+    
+}
+.hero{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-content ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+   
+}
+
+.hambagur-icon{
+    text-align: end;
+    display: none;
+   
+}
+.nav-content ul a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 10px;
+    transition: all .5s;
+   
+}
+.nav-content ul a:hover{
+    background-color: #FF5400;
+    
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+.banner-section{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group 13 (1) (1).png");
+    background-blend-mode: hard-light;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+   
+
+}
+.banner-content{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+   
+}
+.banner-heading{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-input{
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    gap: 30px;
+   
+   
+}
+.banner-input input{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 0;
+    gap: 20px;
+
+
+}
+
+/*header section end*/
+
+/*tours section start*/
+.tours-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+.tours-content li{
+    padding-bottom: 10px;
+}
+.tours-img{
+    margin-top: 30px;
+}
+/*tours section end*/
+/*destination section start*/
+.destination-section{
+    margin: 50px 0;
+}
+.destination-content{
+    text-align: center;
+    padding: 0 300px;
+}
+.img-container{
+    margin-top: 50px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.row img{
+    width: 100%;
+}/*destination section end*/
+
+
+/*choose section start*/
+.choose-section-content{
+    text-align: center;
+    padding: 0 300px;
+}
+.cards-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.cards-top{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+.cards-left{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.cards-right{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+    }
+.cards-one{
+    width: 50%;
+    margin: 24px auto;
+    padding: 30px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
+}
+/*choose section end*/
+
+
+/*responsive for smaal device*/
+@media screen and (max-width:576px){
+    .nav-content{
+        display: none;
+    }
+    .hambagur-icon{
+        display: block;
+    }
+
+}
+
